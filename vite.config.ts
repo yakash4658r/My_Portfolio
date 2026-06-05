@@ -18,7 +18,7 @@ export default defineConfig(async ({ mode }) => {
   }
 
   return {
-    base: '/My_Portfolio/',
+    base: '/',
     plugins,
     envPrefix: ['VITE_', 'NEXT_PUBLIC_'],
     define: processEnvDefines,
