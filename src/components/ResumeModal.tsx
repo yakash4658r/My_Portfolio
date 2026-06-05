@@ -79,14 +79,14 @@ export function ResumeModal({ isOpen, onClose }: ResumeModalProps) {
 
             <div className="flex gap-4">
               <a 
-                href="/Yakash_resume.pdf" 
+                href="./Yakash_resume.pdf" 
                 download
                 className="flex-1 bg-gradient-to-r from-[#8651C9] to-[#b078f7] text-white font-bold py-4 px-6 rounded-xl text-center hover:opacity-90 transition-opacity flex items-center justify-center gap-2 text-sm"
               >
                 <Download className="w-4 h-4" /> Download Resume
               </a>
               <a 
-                href="/Yakash_resume.pdf" 
+                href="./Yakash_resume.pdf" 
                 target="_blank"
                 rel="noreferrer"
                 className="flex-1 bg-transparent border border-[#3B2563] text-white font-bold py-4 px-6 rounded-xl text-center hover:bg-[#2A1B4A] transition-colors flex items-center justify-center gap-2 text-sm"
@@ -128,7 +128,7 @@ export function ResumeModal({ isOpen, onClose }: ResumeModalProps) {
             {/* Iframe Viewer */}
             <div className="flex-1 bg-gray-100 relative">
               <iframe 
-                src="/Yakash_resume.pdf#toolbar=0" 
+                src="./Yakash_resume.pdf#toolbar=0" 
                 className="absolute inset-0 w-full h-full border-0"
                 title="Yakash Resume"
               />

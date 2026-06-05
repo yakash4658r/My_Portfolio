@@ -36,7 +36,7 @@ export function Hero() {
           >
             {/* User Profile Image */}
             <img 
-              src="/Profile_nobg.png" 
+              src="./Profile_nobg.png" 
               alt="Yakash Profile"
               className="w-full h-full object-contain object-bottom drop-shadow-[0_0_40px_rgba(134,81,201,0.15)]"
             />

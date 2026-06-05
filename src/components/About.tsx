@@ -47,7 +47,7 @@ export function About({ onOpenResume }: AboutProps) {
             
             <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full border border-[#3B2563] bg-gradient-to-b from-[#2A1B4A] to-[#190F2E] flex items-end justify-center shadow-[0_0_50px_rgba(134,81,201,0.2)] overflow-hidden">
               <img 
-                src="/Profile_nobg.png" 
+                src="./Profile_nobg.png" 
                 alt="Yakash Profile" 
                 className="w-[85%] h-[85%] object-contain object-bottom drop-shadow-2xl"
               />
