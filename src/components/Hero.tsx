@@ -41,12 +41,7 @@ export function Hero() {
               className="w-full h-full object-contain object-bottom drop-shadow-[0_0_40px_rgba(134,81,201,0.15)]"
             />
             
-            {/* Giant "00" overlay inside the container */}
-            <div className="absolute bottom-10 right-4 md:right-8 z-30 pointer-events-none">
-              <span className="text-[8rem] md:text-[12rem] font-black italic text-[#8651C9] opacity-80 leading-none tracking-tighter drop-shadow-2xl">
-                00
-              </span>
-            </div>
+
           </motion.div>
         </motion.div>
 
