@@ -19,9 +19,7 @@ export function About({ onOpenResume }: AboutProps) {
         
         {/* Header */}
         <div className="text-center mb-20">
-          <h2 className="text-[10vw] sm:text-[8vw] md:text-7xl lg:text-8xl font-black text-[#2A1B4A] opacity-50 uppercase tracking-tighter leading-none select-none absolute left-1/2 -translate-x-1/2 -top-10 w-full pointer-events-none">
-            ABOUT ME
-          </h2>
+
           <h2 className="text-4xl md:text-5xl font-bold text-white relative z-10 inline-block bg-[#190F2E] px-4">
             About Me
           </h2>
