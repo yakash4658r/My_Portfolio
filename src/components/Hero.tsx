@@ -11,12 +11,12 @@ export function Hero() {
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
-          className="absolute z-30 left-6 lg:left-24 top-1/2 -translate-y-1/2 pointer-events-none"
+          className="absolute z-30 left-6 lg:left-24 top-32 md:top-1/2 md:-translate-y-1/2 pointer-events-none"
         >
-          <h1 className="text-6xl md:text-8xl lg:text-[8rem] font-black tracking-tight text-[#8651C9] leading-[1]">
+          <h1 className="text-5xl sm:text-6xl md:text-8xl lg:text-[8rem] font-black tracking-tight text-[#8651C9] leading-[1]">
             Yakash
           </h1>
-          <h2 className="text-4xl md:text-6xl lg:text-[5rem] font-bold tracking-tight text-[#8651C9] leading-[1.1] mt-2">
+          <h2 className="text-3xl sm:text-4xl md:text-6xl lg:text-[5rem] font-bold tracking-tight text-[#8651C9] leading-[1.1] mt-2 md:mt-4">
             AI Engineer &<br />
             Data Scientist
           </h2>
@@ -27,7 +27,7 @@ export function Hero() {
           initial={{ opacity: 0, scale: 0.95 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1, ease: "easeOut" }}
-          className="ml-auto relative w-full md:w-[65%] lg:w-[50%] h-[70vh] md:h-[80vh] z-20 mt-20 md:mt-0"
+          className="ml-auto relative w-full md:w-[65%] lg:w-[50%] h-[65vh] md:h-[80vh] z-20 mt-40 sm:mt-32 md:mt-0 self-end md:self-auto"
         >
           <motion.div
             animate={{ y: [-15, 15, -15] }}
