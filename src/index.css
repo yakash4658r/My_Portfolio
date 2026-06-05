@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #8651C9;
+  --color-secondary: #a1a1aa;
+  --color-tertiary: #52525b;
+  
+  --color-bg-light: #000000;
+  --color-bg-subtle: #0a0a0a;
+}
+
+@layer base {
+  body {
+    @apply bg-black text-white antialiased overflow-x-hidden;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+}
+
+.bento-panel {
+  @apply bg-[#111] border border-gray-800 rounded-3xl transition-all duration-300;
+}
+
+.bento-panel:hover {
+  @apply border-gray-700 bg-[#161616];
+}
+
+.text-gradient {
+  @apply text-white;
+}
+
+.text-outline {
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.2);
+  color: transparent;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+}
